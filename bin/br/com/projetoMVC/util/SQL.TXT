@@ -1,0 +1,12 @@
+CREATE TABLE Produto (
+	ID SERIAL PRIMARY KEY,
+	descricao VARCHAR(50) NOT NULL 
+);
+	
+SELECT * FROM PRODUTO
+
+SELECT * FROM Produto ORDER BY descricao
+
+INSERT INTO Produto (descricao) VALUES ('notebook');
+INSERT INTO Produto (descricao) VALUES ('smartphone');
+INSERT INTO Produto (descricao) VALUES ('SSD');
